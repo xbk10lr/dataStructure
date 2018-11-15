@@ -160,4 +160,12 @@ public class Array<E> {
 		res.append("]");
 		return res.toString();
 	}
+	
+	public E getLast(){
+		return get(size -1);
+	}
+	
+	public E getFirst(){
+		return get(0);
+	}
 }
