@@ -5,7 +5,7 @@ import array.Array;
 /**
  * 
  * @author Administrator
- *
+ * arrayStack所有方法复杂度都为O(1)
  * @param <E>
  */
 public class ArrayStack<E> implements Stack<E> {
